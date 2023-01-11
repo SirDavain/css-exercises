@@ -1,0 +1,21 @@
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, DejaVu, sans-serif;
+    color: black;
+}
+
+#even {
+    color: blue;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+.also {
+    font-size: 24px;
+}
+
+#secondeven {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}

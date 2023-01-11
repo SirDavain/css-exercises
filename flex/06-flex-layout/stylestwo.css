@@ -29,6 +29,19 @@ input {
   margin-bottom: 16px;
 }
 
+.content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
 .header,
 .footer {
   display: flex;
@@ -36,27 +49,14 @@ input {
   padding: 16px;
 }
 
-a {
-  text-decoration: none;
-  color: #666;
-}
+.footer {
+    background: #eee;
+  }
 
 ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 16px;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  flex-direction: column;
-}
-
-.footer {
-  background-color: #eeeeee;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
